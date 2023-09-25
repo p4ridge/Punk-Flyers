@@ -18,6 +18,8 @@ footer
 first step create html page info without styles
 
 first add header info 
- research creating html index file template
+ research creating html index file template -completed
 
 commit this updated README
+
+9/25/23 header just needs cleanup start on next session commit updates
