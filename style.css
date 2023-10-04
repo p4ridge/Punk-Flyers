@@ -7,6 +7,11 @@ button {
     width: 120px;
     background-color: #3882f6;
     flex-grow: 0;
+    border-radius: 8px;
+    color: #EfE7EB;
+    height: 36px;
+    font-size: 18px;
+    border: none;
 }
 a, .subtitle, .image-container {
     color: #EfE7EB;
@@ -23,14 +28,14 @@ ul {
 .logo-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 1%;
 }
 .links {
     margin:0%;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .logo {
     color: #F9FAF8;
@@ -43,13 +48,14 @@ ul {
 }
 .container {
     display: flex;
-    justify-content: center;
-    margin: 5%;
+    justify-content: space-between;
+    margin: 10%;
 }
 .left-content {
     display: flex;
     flex-direction: column;
    flex: 1;
+   padding-right: 5%;
 }
 .image-container {
     background-color: gray;
@@ -63,6 +69,23 @@ ul {
  display: flex;
  flex-direction: column;
  flex: 1;
+}
+.flyers-header {
+    text-align: center;
+    font-size: 36px;
+}
+.flyers-content {
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+.flyers-container {
+    display: flex;
+    flex-direction: column;
+}
+.blog {
+    background-color: #e5e7eb;
 }
 .footer {
     text-align: center;

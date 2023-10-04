@@ -23,3 +23,7 @@ first add header info
 commit this updated README
 
 9/25/23 header just needs cleanup start on next session commit updates
+
+9/29/23 continue cleanup of header
+
+10/4/23 work on flyers section
