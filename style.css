@@ -64,6 +64,7 @@ ul {
     flex: 1;
     justify-content: center;
     align-items: center;
+    min-height: 50px;
 }
 .content {
  display: flex;
@@ -83,11 +84,53 @@ ul {
 .flyers-container {
     display: flex;
     flex-direction: column;
+    margin: 2%
 }
-.blog {
+.quote {
     background-color: #e5e7eb;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.author {
+    align-self: flex-end;
+}
+.quote-content {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 10%;
+}
+.action-content {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
 .footer {
     text-align: center;
     margin-bottom: 1%;
+}
+.action-button {
+    margin: 5%;
+    width: 120px;
+    background-color: #3882f6;
+    flex-grow: 0;
+    border-radius: 8px;
+    color: #EfE7EB;
+    height: 36px;
+    font-size: 18px;
+    border: #EfE7EB;
+    border: solid;
+    flex-shrink: 0;
+    
 }
