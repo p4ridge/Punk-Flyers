@@ -21,7 +21,7 @@ a, .subtitle, .image-container {
 ul {
     list-style-type: none;
 }
-.header {
+.header, .footer {
     text-align: center;
     background-color: #1f2937;
 }
@@ -37,7 +37,7 @@ ul {
     display: flex;
     gap: 15px;
 }
-.logo {
+.logo, .action-title {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -116,10 +116,6 @@ ul {
     margin: 5%;
 }
 
-.footer {
-    text-align: center;
-    margin-bottom: 1%;
-}
 .action-button {
     margin: 5%;
     width: 120px;
